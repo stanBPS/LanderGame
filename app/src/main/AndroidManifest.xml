@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.landergame">
-
+    <!--Licence GPL-->
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo_game"
@@ -32,6 +32,8 @@
             android:name=".MainActivity"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.LanderGame.Fullscreen"></activity>
+
+
     </application>
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
